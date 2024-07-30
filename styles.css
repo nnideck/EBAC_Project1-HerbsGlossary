@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A3B18A ;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+header {
+    background-image: url('./images/header-background_1.jpg');
+    background-repeat: repeat;
+    height: 60px;
+    color: #2a3f34;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+li a,
+.container a {
+    text-decoration: none;
+    color: #2a3f34;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.intro-section img {
+height: 250px;
+}
+
+.intro-section {
+    margin: 50px 50px;
+}
+
+.intro-content {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.intro-content p{
+    margin-top: 10px;
+}
+
+.div-content {
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.div-howto img {
+    height: 100px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.div-howto {
+margin-top:20px ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 900px;
+}
+
+.div-howto div {
+    margin-left: 15px;
+}
+
+.div-howto div p{
+    margin-top: 10px;
+}
+
+#about h2 {
+    margin-bottom: 5px;
+}
+
+#about{
+    margin-top: 50px;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #DAD7CD;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    width: 300px;
+    height: 25px;
+    background-color: #3A5A40;
+    border: none;
+    border-radius: 5px;
+    color: #DAD7CD;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #588157;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+input:focus,
+textarea:focus {
+    outline-color:  #344E41;
+}
+
+.contact-methods {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #344E41;
+    height: 20px;
+    color: #DAD7CD
+}
+
+input,
+textarea {
+    font-family: "Open Sans", sans-serif;
+}
